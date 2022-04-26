@@ -1,0 +1,55 @@
+.letter {
+    width: 50px;
+    margin: 2px;
+    padding: 2px;
+    outline: 1px solid black;
+    text-align: center;
+    float: left;
+}
+
+.display {
+    border: 1px solid black;
+    position: relative;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: gray;
+}
+
+/* .letter:hover {
+    cursor: pointer;
+    background-color: gray;
+} */
+
+.underlines {
+    margin-bottom: 50px;
+}
+
+.underline {
+    width: 50px;
+    margin: 2px;
+    padding: 2px;
+    outline: 1px solid black;
+    text-align: center;
+    float: left;
+}
+
+.lives {
+
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+html {
+    background-color: lightgreen;
+}
